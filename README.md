@@ -4,7 +4,7 @@
 
 ### Usage
 
-    git clone <repo>
-    cd dns_leak_server.js
+    git clone git@github.com:mdp/dns_leak_server.git
+    cd dns_leak_server
     sudo docker build -t <your username>/dns_leak_server .
     sudo docker run -p 53:5353 -e NS="ns.yourserver.com" -d <your username>/dns_leak_server
